@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.13;
+
+contract Suganth{
+uint public sug ;
+string public mub;
+function suganth(uint _sug , string memory _mub ) public{
+sug =_sug;
+mub =_mub;
+}
+}
